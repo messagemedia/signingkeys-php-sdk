@@ -37,7 +37,7 @@ class SignatureKeyManagementController extends BaseController
         if (null === static::$instance) {
             static::$instance = new static();
         }
-        
+
         return static::$instance;
     }
 
@@ -60,7 +60,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys/enabled';
 
@@ -69,7 +69,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -118,7 +118,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys/{key_id}';
 
@@ -132,7 +132,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -200,7 +200,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys/{key_id}';
 
@@ -214,7 +214,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -316,7 +316,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys';
 
@@ -325,7 +325,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -393,7 +393,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys/enabled';
 
@@ -402,7 +402,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -481,7 +481,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys/enabled';
 
@@ -490,7 +490,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
@@ -570,7 +570,7 @@ class SignatureKeyManagementController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/iam/signature_keys?page={page}&page_size={page_size}';
 
@@ -585,7 +585,7 @@ class SignatureKeyManagementController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagesmedia-signingkeys',
+            'user-agent'    => 'messagemedia-signingkeys-sdk-1.0.0',
             'Content-Type'    => $contentType,
             'Accept'          => $accept
         );
