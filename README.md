@@ -1,6 +1,6 @@
 # MessageMedia Signature Key Management PHP SDK
 [![Travis Build Status](https://api.travis-ci.org/messagemedia/signing-keys-php-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/signing-keys-php-sdk)
-[![PHP version](https://badge.fury.io/ph/messagemedia%2Fwebhooks-sdk.svg)](https://badge.fury.io/ph/messagemedia%2Fwebhooks-sdk)
+[![PHP version](https://badge.fury.io/ph/messagemedia%2Fsigningkeys-sdk.svg)](https://badge.fury.io/ph/messagemedia%2Fsigningkeys-sdk)
 
 The MessageMedia Signature Key API provides a number of endpoints for managing key used to sign each unique request to ensure security and the requests can't (easily) be spoofed. This is similar to using HMAC in your outbound messaging (rather than HTTP Basic).
 
