@@ -29,6 +29,7 @@ class SignatureKeyManagementControllerTest extends \PHPUnit_Framework_TestCase
      */
     public static function setUpBeforeClass()
     {
+        TestHelper::getAuthorizationFromEnvironment();
         $client = new \MessageMediaSigningKeysLib\MessageMediaSigningKeysClient();
         self::$controller = $client->getSignatureKeyManagement();
     }
