@@ -2,6 +2,7 @@
     "name": "messagemedia/signingkeys-sdk",
     "type": "library",
     "description": "The MessageMedia Signature Key API provides a number of endpoints  for managing key used to sign each unique request to ensure security  and the requests can't (easily) be spoofed. This is similar to using  HMAC in your outbound messaging (rather than HTTP Basic).",
+    "version": "1.1.0",
     "keywords": ["Signature Key Management","API","SDK"],
     "homepage": "https://github.com/messagemedia/signingkeys-php-sdk",
     "license": "Apache-2.0",
