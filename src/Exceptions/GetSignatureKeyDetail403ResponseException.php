@@ -13,7 +13,7 @@ use MessageMediaSigningKeysLib\APIHelper;
 /**
  * @todo Write general description for this model
  */
-class GETSignatureKeyList403ResponseException extends APIException
+class GetSignatureKeyDetail403ResponseException extends APIException
 {
     /**
      * @todo Write general description for this property

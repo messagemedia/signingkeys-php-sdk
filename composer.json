@@ -1,16 +1,15 @@
 {
-    "name": "messagemedia/signingkeys-sdk",
+    "name": "messagemedia/signingkeys",
     "type": "library",
-    "description": "The MessageMedia Signature Key API provides a number of endpoints for managing key used to sign each unique request to ensure security and the requests can't (easily) be spoofed. This is similar to using HMAC in your outbound messaging (rather than HTTP Basic).",
-    "version": "1.0.0",
+    "description": "The MessageMedia Signature Key API provides a number of endpoints  for managing key used to sign each unique request to ensure security  and the requests can't (easily) be spoofed. This is similar to using  HMAC in your outbound messaging (rather than HTTP Basic).",
     "keywords": ["Signature Key Management","API","SDK"],
-    "homepage": "https://developers.messagemedia.com",
-    "license": "Apache-2.0",
+    "homepage": "https://apimatic.io",
+    "license": "MIT",
     "authors": [
         {
-            "name": "MessageMedia Developers",
-            "email": "developers@messagemedia.com",
-            "homepage": "https://developers.messagemedia.com",
+            "name": "APIMatic SDK Generator",
+            "email": "support@apimatic.io",
+            "homepage": "https://apimatic.io",
             "role": "API Tool"
         }
     ],
@@ -23,7 +22,9 @@
         "apimatic/jsonmapper": "~1.3.0"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.7"
+        "squizlabs/php_codesniffer": "^2.7",
+        "phpunit/phpunit": "4.8.*"
+
     },
     "autoload": {
         "psr-4": {

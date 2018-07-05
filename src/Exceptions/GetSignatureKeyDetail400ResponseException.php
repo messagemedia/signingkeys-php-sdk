@@ -13,7 +13,7 @@ use MessageMediaSigningKeysLib\APIHelper;
 /**
  * @todo Write general description for this model
  */
-class GETSignatureKeyDetail403ResponseException extends APIException
+class GetSignatureKeyDetail400ResponseException extends APIException
 {
     /**
      * @todo Write general description for this property
@@ -21,6 +21,13 @@ class GETSignatureKeyDetail403ResponseException extends APIException
      * @var string $message public property
      */
     public $message;
+
+    /**
+     * @todo Write general description for this property
+     * @required
+     * @var array $details public property
+     */
+    public $details;
 
     /**
      * Constructor to set initial or default values of member properties

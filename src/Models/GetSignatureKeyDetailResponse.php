@@ -12,7 +12,7 @@ use JsonSerializable;
 /**
  * @todo Write general description for this model
  */
-class GETSignatureKeyDetailResponse implements JsonSerializable
+class GetSignatureKeyDetailResponse implements JsonSerializable
 {
     /**
      * @todo Write general description for this property
