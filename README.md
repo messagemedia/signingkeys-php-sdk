@@ -4,6 +4,8 @@
 
 The MessageMedia Signature Key API provides a number of endpoints for managing key used to sign each unique request to ensure security and the requests can't (easily) be spoofed. This is similar to using HMAC in your outbound messaging (rather than HTTP Basic).
 
+![Isometric](http://i64.tinypic.com/2lo3n8p.jpg)
+
 ## ⭐️ Installing via Composer
 Run the Composer command to install the latest stable version of the Messages SDK:
 ```
