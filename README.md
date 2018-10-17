@@ -1,5 +1,4 @@
 # MessageMedia Signature Key Management PHP SDK
-[![Travis Build Status](https://api.travis-ci.org/messagemedia/signing-keys-php-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/signing-keys-php-sdk)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![PHP version](https://badge.fury.io/ph/messagemedia%2Fsigningkeys-sdk.svg)](https://badge.fury.io/ph/messagemedia%2Fsigningkeys-sdk)
 
